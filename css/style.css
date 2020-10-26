@@ -1,0 +1,82 @@
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar ul{
+	padding: 0;
+	margin: 0;
+}
+
+#navbar ul li{
+	float: left;
+	list-style: none;
+	padding: 12px 15px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+#city img{
+	float: left;
+	padding-right: 30px;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-image: url("../img/loading.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#city span.counter{
+	width: 50px;
+	font-size: 31px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	background-color: black;
+}
+
+#city .label-counter{
+	float:left;
+}
+
+#city {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	width: 68%;
+	margin-top: 10px;
+}
+
+#city .cnt{
+	margin-top: 52px;
+}
+
+#city .city-container{
+	padding: 1px 0 45px 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 19%;
+  float: left;
+  margin-right: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
